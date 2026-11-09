@@ -14,8 +14,11 @@ The repository provides implementations of the stochastic programming model, the
 The repository contains four main source files:
 
 | waiting_time.c | C implementation for computing conditional expected waiting times. |
+
 | `menu_sp.py` | Single-period stochastic programming model [ReSP], solved using a customized branch-and-cut algorithm. |
+
 | `RHO.py` | Rolling horizon optimization framework that sequentially solves the single-period model for each time slot and updates charging station states. |
+
 | `CG.py` | Column generation algorithm for solving the linear relaxation of the full-information model [DP], providing a lower bound on the realized total waiting time. |
 
 3. Computational Environment
